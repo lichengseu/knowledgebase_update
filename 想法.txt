@@ -28,3 +28,8 @@
   Dynamics不管在单轮更新还是多轮更新中都表现最好。
 26.更新分两部分：1.知识库已有的实体进行更新
                  2.发现知识库中没有的知识
+27.HTTP metadata monitoring:analysis of http response headers including datestamp and ETag.
+28. email notification "www.changedetection.com"
+29. 类似于rdf:type这类的三元组可能相对静态，而一些敏感数据可能相对动态，可以从这个角度对RDF三元组作区分。
+30. 更新有两种选择：1）主动去检查是否改变（pull)。 2）被动接受订阅通知(push)  
+31. 区分实体、属性类型，静态属性和动态属性。
