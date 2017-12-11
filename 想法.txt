@@ -34,3 +34,6 @@
 30.更新有两种选择：1）主动去检查是否改变（pull)。 2）被动接受订阅通知(push)  
 31.区分实体、属性类型，静态属性和动态属性。
 32. 并不是实体过去的改变频率越高，它需要被更新的频率越高。这要根据本地知识库的freshness评价方法来确定。相关研究表明，他们之间的关系曲线是一个拱形。 
+33. 衡量偏差：boolean freshness、number of changes since refresh、value deviation
+34. 采用不同的策略对实体进行分类，然后对每个分类的实体进行sample，使用那篇论文中提到的“sampling-based"方法进行更新。
+35. 更新策略总结：1. Round-robin 2. change frequency based 3. sampling based(按比例更新和贪婪更新策略)
